@@ -614,5 +614,17 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>zhihu-releases</name>
+			<url>http://repo.in.zhihu.com/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>zhihu-snapshots</name>
+			<url>http://repo.in.zhihu.com/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
 
